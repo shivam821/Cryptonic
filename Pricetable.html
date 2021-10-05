@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="style.css">
+        <script src="searchbar.js"></script>
+
+        <title>Landing Page</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="./index.html" class="nav__logo">Cryptonic</a>
+                </div>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="./index.html" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="./Pricetable.html" class="nav__link">Pricing</a></li>
+                        <li class="nav__item"><a href="./Bitcoin.html" class="nav__link">Bitcoin</a></li>
+                        <li class="nav__item"><a href="./Etherium.html" class="nav__link">Ethereum</a></li>                    
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="header"> <h1>Cryptocurrency Price Chart</h1></div>
+
+        <div class="search-box-wrapper">
+          <input type="text" placeholder="Search..." class="search-box-input" id="myInput" onkeyup="myFunction()">
+          <!--<button class="search-box-button" type="submit">Search</button>-->
+        </div>
+
+        <table class="table table-bordered" style="margin-top: 90px" id="myTable" >
+          <thead>
+            <tr>
+              <th scope="col">Symbol</th>
+              <th scope="col">Rank</th>
+              <th scope="col">Tier</th>
+              <th scope="col">Name</th>
+              <th scope="col">Price</th>
+              <th scope="col">Btc Price</th>
+              <th scope="col">UUID</th>
+      
+            </tr>
+          </thead>
+          <tbody id="data">
+          </tbody>
+        </table>
+        <script src="app.js"></script>
+      </body>
+      </html>
+      

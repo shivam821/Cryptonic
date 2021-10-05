@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,900;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 30px;
+  min-height: 210vh;
+  background: black;
+}
+
+.btcwdgtchart {
+    margin-top: 200px;
+    margin-left: 400px;
+}
+
+.btcwdgtchart h1{
+    color:white;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 30px 0;
+    justify-content: center;
+    display: flex;
+    margin-top: -100px;
+    margin-left: -400px;
+}
+
+.column {
+    margin-top: 50px;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.row {
+    margin-left: 70px;
+}
+
+.row h1{
+    color:white;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 30px 0;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    margin-left: -70px;
+}
+
+.column1 {
+    margin-top: 50px;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.row1 {
+    margin-left: -20px;
+}
+
+.row1 h1{
+    color:white;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 30px 0;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+.column3 {
+    margin-top: 50px;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.row3 {
+    margin-left: 500px;
+}
+
+.row3 h1{
+    color:white;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 30px 0;
+    justify-content: center;
+    display: flex;
+    margin-top: 500px;
+    margin-left: -550px;
+}
+
+li a {
+    color: white;
+}
+
+.newwidget {
+    margin-top: 500px;
+    width: 500px;
+    height: 500px;
+}
